@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(65, 195, 204, 0.9);
+}
+
+h1{
+    font-size: 5rem;
+    color:#cef3dd ;
+    margin-bottom: 20px;
+}
+
+.Show{
+    font-size: 70px;
+    margin-bottom: 1rem;
+}
+
+.btns{
+    padding: 20px;
+    letter-spacing: 2px ; 
+    cursor: pointer ;
+}
+
+.reset{
+    margin: 0 10px 0 10px;
+}
+
+img{
+    border-radius: 50%;
+    height: 190px;
+    width: 190px;
+}
